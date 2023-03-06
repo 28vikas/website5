@@ -1,0 +1,1035 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body{
+    background-color: black;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+
+.container{
+ width: 90%;
+ background-color: white;
+ margin: 0 auto;
+}
+
+/* logo section */
+.logo{
+   height: 100px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+}
+
+/* navbar section */
+.navbar ul{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(10, 10, 79);
+    height: 50px;
+    color: white;
+    /* border: 2px solid black; */
+}
+.navbar li{
+    list-style: none;
+    padding: 40px;
+ 
+}
+/* bg image section */
+.bg-img{
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+ background:linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(/images/bg/aditya-chinchure-TE50158gdvs-unsplash.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+
+}
+
+.bg-contain{
+    height: 80vh;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.bg-contain h5{
+    position: relative;
+    top: 190px;
+    font-size: 20px;
+}
+.bg-contain h2{
+    font-size: 60px;
+    position: relative;
+    top: 220px;
+}
+
+.bg-contain p{
+    font-size: 20px;
+    position: relative;
+    top: 240px;
+}
+.bg-btn{
+    position: relative;
+    top: 280px;
+    background-color: orangered;
+    padding: 10px;
+    width: 170px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* line up section */
+.line-up{
+    height: 800px;
+
+    
+}
+.line{
+    border-bottom: 2px solid rgb(234, 228, 228);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.line-up-contain{
+  position: relative;
+  top: 40px;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+.line-up-contain h3{
+   margin-top: 20px;
+   font-size: 40px;
+}
+
+.line-img{
+   /* margin-top: 40px; */
+   display: grid;
+   grid-template-columns: 150px 150px 150px;
+   grid-template-rows: 50px 50px 50px;
+   justify-content: center;
+   gap: 220px 80px;
+   margin-top: 20px;
+   margin-right: 30px;
+   
+}
+.line-up-name{
+
+    color: white;
+    background-color: black;
+    width: 200px;
+    padding: 7px;
+    position: relative;
+    bottom: 36px;
+}
+.read-btn{
+    position: relative;
+    bottom: 30px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+/* blog-section */
+.blog-section{
+    height: 750px;
+    background-color: rgb(235, 225, 225);
+    margin-top: 20px;
+    
+
+
+
+}
+.img-blog{
+  position: relative;
+  top: 30px;
+}
+
+.img-blog-left{
+    display: flex;
+    justify-content: space-around;
+
+}
+.p-blog{
+    position: relative;
+    top: 70px;
+    left: 50px;
+    
+}
+.p-blog h3{
+    font-size: 25px ;
+    
+}
+.p-blog p{
+   margin-top: 20px;
+ 
+}
+.read-btntwo{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+
+/* our brand */
+.our-btrand{
+    height: 550px;
+    background-color: white;
+}
+.spantime{
+    color: rgb(244, 94, 39);
+}
+
+.our-btrand h4{
+    background-color: black;
+    height: 50px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 28px;
+}
+.name-stageone{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+
+}
+.our-btrand h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+
+   
+}
+.name-stage{
+    text-align: center;
+  position: relative;
+  top: 30px;
+  /* background-color: yellow; */
+    font-weight: 600;
+}
+
+
+.read-btnthree{
+    position: relative;
+    top: 70px;
+    left: 630px;
+    padding: 10px;
+   
+    width: 120px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+ 
+}
+.time-section{
+    height: 200px;
+    position: relative;
+    top: 70px;
+    /* margin-top: 100px; */
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-evenly ;
+}
+
+.time-section-cintainer-one p{
+    font: 50px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+/* dont wait */
+
+.dont-wait {
+  background-color: rgb(244, 94, 39);
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.dont-para p{
+    position: relative;
+    top: 70px;
+    color: white;
+    font-size: 30px;
+    margin-right: 500px;
+    /* margin-top: 50px; */
+}
+
+
+.dont-icon img{
+    font-size: 200px;
+
+margin-top: 70px;   
+margin-left: 200px;
+
+position: relative;
+
+color: white;
+
+}
+/* gallery section */
+
+.gallery-section{
+    height: 900px;
+    width: 100%;
+    background-color: white;
+
+
+}
+
+.gallry-img{
+    
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 50px 50px 50px;
+    justify-content: center;
+
+    gap: 220px 80px;
+    margin-top: 120px;
+    margin-right: 30px;
+    
+ }
+ .gimgsectionone{
+    grid-column-start: 1;
+    grid-column-end: 3;
+ }
+
+ .read-btnn{
+    position: relative;
+    top: 30px;
+    left: 250px;
+    padding: 5px;
+    width: 160px;
+    border-radius: 25px;
+    background: transparent;
+    border-color: brown;
+}
+
+/* let the music */
+.let-the-music{
+    background: url(/images/singer/img7.jpg);
+    background-repeat: no-repeat;
+
+    background-position-y: -300px;
+
+    background-size: cover;
+     height: 500px;
+     width: 100%;
+     background-color: white;
+     color: white;
+}
+
+.let-the-contain{
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
+}
+.let-the-contain h2{
+     font-size: 50px;
+} 
+.let-the-contain p{
+   margin-top: 30px;
+}
+.let-the-contain button{
+    position: relative;
+    top: 50px;
+    background-color: orangered;
+    padding: 10px;
+    width: 140px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* suspendise section */
+.suspendise-sec{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(235, 226, 226);
+}
+.suspendise-sec-contain{
+    background-color: white;
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+.suspendise-text-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.suspendise-img img{
+    padding: 6px;
+}
+
+.suspendise-text{
+  position: relative;
+  top: 120px;
+}
+
+.suspendise-text h2{
+    font-size: 30px;
+} 
+.suspendise-text p{
+  margin-top: 30px;
+}
+.read-btnntwo{
+    position: relative;
+    top: 30px;
+  
+    padding: 10px;
+    width: 140px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+/* from -blog */
+.from-blog{
+    height: 610px;
+    width: 100%;
+    background-color: white;
+}
+.from-blog-imgtext{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+
+    margin-top: 90px;
+    margin: 80px auto;
+    height: 500px;
+}
+
+.fromblog-left h3{
+    margin-top: 20px;
+}
+.fromblog-left p{
+    margin-top: 20px
+}
+.fromblog-right h3{
+    margin-top: 20px;
+ 
+}
+
+.fromblog-right p{
+    margin-top: 20px
+}
+/* footer section*/
+
+.our-sponser{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+ 
+}
+.sponsor-img{
+    margin-top: 80px;
+
+}
+.top-sponsor-img{
+    display: flex;
+
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+.read-btnfooter{
+    position: relative;
+    top: 30px;
+    left: 600px;
+    padding: 10px;
+    width: 140px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+/* about festival */
+
+.festival-section{
+    height: 380px;
+    width: 100%;
+    background-color: rgb(231, 221, 221);
+}
+.about-festival{
+    position: relative;
+    top: 70px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    height: 250px;
+    font-size: 18px;
+ 
+}
+.about-festival h3{
+    font-size: 30px;
+
+}
+.about-festival p{
+    position: relative;
+    top: 20px;
+}
+
+.about-festival ul{
+    position: relative;
+    top: 20px;
+    
+}
+.cnt{
+    position: relative;
+    right: 18px;
+}
+.follow{
+    position: relative;
+    top: 30px;
+    right: 15px;
+}
+.footer-icon{
+    position: relative;
+    top: 45px;
+    right: 22px;
+    
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-google, .fa-youtube{
+    padding: 8px;
+}
+
+.festival-right ul li{
+    padding: 5px;
+}
+.read-btnfootertwo{
+    position: relative;
+    top: 50px;
+    /* left: 600px; */
+    padding: 10px;
+    width: 140px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+.copyright{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(38, 35, 35);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.copyright p{
+      position: relative;
+      top: 30px;
+}
+.copyright a{
+    position: relative;
+    top: 30px;
+    color: white;
+}
+
+
+
+/* NEXT PAGE SECTION */
+.band-festival{
+    background:  url(/images/bg\ img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-x: 100px; */
+    background-position-y: -400px;
+color: white;
+height: 400px;
+width: 100%;
+
+text-align: center;
+}
+
+.festival-contain{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.festival-contain h3{
+    position: relative;
+    top: 30px;
+    font-size: 60px;
+}
+.stateall{
+    position: relative;
+    top: 120px;
+}
+.state-section{
+    /* list-style: decimal; */
+    display: flex;
+    justify-content: space-between;
+  
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+/* festivaltwo */
+.festivaltwo{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+ 
+}
+
+.Fest-list-item{
+    display: flex;
+  
+    position: relative;
+    justify-content: space-between;
+    top: 130px;
+    width: 60%;
+    margin: 0 auto;
+}
+.fest-list-one li{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(65, 65, 118);
+}
+
+/* band studio */
+.band-studio{
+ height: 300px;
+ width: 100%;
+
+
+}
+
+.band-img-text{
+    display: flex;
+ 
+    width: 60%;
+    justify-content: space-around;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+}
+.bandtext h3{
+   position: relative;
+   top: 20px;
+   font-size: 20px;
+}
+.bandtext p{
+    position: relative;
+    top: 30px;
+}
+
+/* checklist festival */
+
+.checklist{
+    height: 820px;
+    width: 100%;
+
+  
+}
+
+.checklist-festival{
+   display: flex;
+
+   width: 60%;
+   margin: 0 auto;
+   justify-content: space-around;
+
+
+}
+.checklist-festival img{
+    position: relative;
+    top: 30px;
+    right: 20px;
+ 
+}
+.checklist-festivaltwo img{
+    position: relative;
+    top: 30px;
+ 
+}
+.checklist-festivaltwo{
+    display: flex;
+
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.checklist-text{
+    font-size: 18px;
+    
+}
+.checklist-text h1{
+    margin-top: 30px;
+}
+.checklist-text h3{
+    margin-top: 15px;
+
+}
+.read-btnfootercheck{
+    position: relative;
+    top: 25px;
+    /* left: 600px; */
+    padding: 10px;
+    width: 140px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+/* somemphotos */
+.some-photos{
+    height: 650px;
+    width: 100%;
+   
+}
+.more-photos{
+  
+    width: 60%;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+/* dont waittwo */
+
+.dont-waittwo {
+    background-color: rgb(244, 94, 39);
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .dont-para p{
+      position: relative;
+      top: 70px;
+      color: white;
+      font-size: 30px;
+      margin-right: 500px;
+  }
+  .dont-icon img{
+      font-size: 200px;
+  margin-top: 70px;   
+  margin-left: 200px;
+  position: relative;
+  color: white;
+  
+  }
+  .register-btn button{
+    position: relative;
+    top: 70px;
+    right: 450px;
+    color: white;
+    background: transparent;
+    border-radius: 15px;
+   width: 120px;
+    border: 1px solid white;
+    padding: 8px
+ 
+  }
+  /* secon studio section */
+
+.second-studio{
+    height: 250px;
+    width: 100%;
+ 
+}
+
+  .second-studio-contain{
+
+    display: flex;
+
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+  }
+  .second-studio-contain p{
+    margin-top: 15px;
+  }
+
+  .read-btnfooterstudio{
+    position: relative;
+    top: 15px;
+    /* left: 600px; */
+    padding: 10px;
+    width: 140px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+/* video-section */
+.video-section{
+    height: 680px;
+    width: 100%;
+    background-color: rgb(232, 222, 222);
+}
+
+
+.html-video{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 00px;
+}
+
+/* third-studio */
+
+.third-studio{
+    height: 400px;
+    width: 100%;
+  background-color: rgb(232, 222, 222);
+}
+.third-studio-contain{
+    display: flex;
+
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    justify-content: space-around;
+    position: relative;
+    top: 30px;
+}
+.third-studio-one h3{
+    position: relative;
+    top: 20px;
+}
+
+.third-studio-one p{
+    position: relative;
+    top: 30px;
+}
+
+.read-btnfooterstudiothird {
+    position: relative;
+    top: 40px;
+    /* left: 600px; */
+    padding: 5px;
+    width: 120px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+/* genreal info*/
+.general-info{
+ height: 550px;
+ width: 100%;
+
+}
+
+.general-contain{
+    display: flex;
+    position: relative;
+    top: 70px;
+
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.general-text h4{
+    position: relative;
+    top: 15px;
+   
+    padding: 3px;
+}
+.general-text p{
+    position: relative;
+    top: 25px;
+    padding: 6px;
+    left: 35px;
+
+}
+.fa-clock, .fa-calendar, .fa-location-dot, .fa-share-nodes{
+    padding: 8px;
+}
+
+/* bg img two */
+
+.bg-img-two{
+    height: 500px;
+    width: 100%;
+    background: url(/images/bg\ img\ 3.jpg);
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* biggest event */
+.biggest-event{
+    height: 390px;
+    width: 100%;
+  
+}
+
+.read-btnbiggest{
+    position: relative;
+    top: 80px;
+    /* left: 600px; */
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+.biggest-p{
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+}
+/* biggest-event-two */
+
+.biggest-event-two{
+   height: 700px;
+   width: 100%;
+   background-color: rgb(232, 221, 221);
+
+}
+
+
+
+.event-two-div{
+    
+    height: 400px;
+    width: 280px;
+    background-color: white;
+}
+
+
+.event-img-div{
+    background-color: orangered;
+    height: 150px;
+}
+.event-semicircle-div{
+    background-color: white;
+    height: 40px;
+    width: 70px;
+    margin: 0 auto;
+    position: relative;
+    top: 110px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+.event-flex{
+   width: 70%;
+   margin: 0 auto;
+   position: relative;
+   top: 100px;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.event-text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.money{
+    color: orangered ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.event-lorem{
+    margin-top: 20px;
+}
+.fa-book-open{
+    font-size: 25px;
+    background-color: orangered;
+    padding: 15px;
+    position: relative;
+    left: 6px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.read-btnevent{
+    position: relative;
+    top: 130px;
+    /* left: 600px; */
+    padding: 10px;
+    left: 620px;
+    width: 120px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: brown;
+}
+
+.passes{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(10, 10, 49);
+    color: white;
+}
+
+.passes-flex-one{
+
+ position: relative;
+ top: 100px;
+ width: 70%;
+ margin: 0 auto;
+ display: flex;
+ height: 120px;
+ justify-content: space-around;
+ background-color: white;
+ color: black;
+ align-items: center;
+ border-radius: 2px;
+}
+
+.pas-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+.day-price{
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 2px;
+    color: white;
+}
